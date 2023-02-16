@@ -8,4 +8,7 @@ def ola():
 
 app.run()
 
+
 idade = int(input("digite sua idade:"))
+
+nome = input("digite seu nome:")
