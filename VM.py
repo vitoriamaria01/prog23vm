@@ -7,3 +7,5 @@ def ola():
     return "<b>Olá, gente!</b>"
 
 app.run()
+
+nome = input("digite seu nome:")
