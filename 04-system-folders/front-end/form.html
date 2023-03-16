@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Cadastro de pessoa</title>
+</head>
+
+<body>
+    <a href="listing.html">Listar</a> | <b>Incluir</b>
+    <hr>
+    <form id="meuformularioquerido" onsubmit="return false;">
+        <p>
+            Nome: <input type="text" id="nome" name="nome" value="Maria Oliveira">
+        </p>
+        <p>
+            Email: <input type="text" id="email" name="email" value="maliv@gmail.com">
+        </p>
+        <p>
+            Telefone: <input type="text" id="telefone" name="telefone" value="47 91234 6789">
+        </p>
+        <button id="btIncluir"">
+            Incluir!!
+        </button>
+    </form>
+
+    <!-- inclusão dos scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script type="module" src="js/incluir_pessoa.js"></script>
+
+</body>
+
+</html>
